@@ -46,7 +46,7 @@
         "wpackagist-plugin/timber-library": "^1.17",
         "wpackagist-plugin/two-factor-auth":"^4.4",
         "wpackagist-plugin/user-switching": "^1.5",
-        "wpackagist-plugin/w3-total-cache": "0.9.7.5",
+        "wpackagist-plugin/w3-total-cache": "0.14.3",
         "wpackagist-plugin/wordpress-importer": "^0.7.0",
         "wpackagist-plugin/wordpress-seo": "^14.7",
         "wpackagist-plugin/wp-mail-smtp": "^2.2.1",
