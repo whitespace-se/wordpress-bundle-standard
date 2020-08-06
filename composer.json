@@ -41,6 +41,7 @@
         "hellonico/timber-dump-extension": "^1.0",
         "roots/wp-password-bcrypt": "^1.0",
         "wpackagist-plugin/disable-comments": "^1.10.0",
+        "wpackagist-plugin/disable-gutenberg": "2.2",
         "wpackagist-plugin/disable-wordpress-updates": "^1.6.6",
         "wpackagist-plugin/redirection": "^4.7",
         "wpackagist-plugin/timber-library": "^1.17",
