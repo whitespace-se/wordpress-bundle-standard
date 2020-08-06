@@ -1,0 +1,14 @@
+{
+  "name": "@whitespace-se/wordpress-bundle",
+  "version": "3.0.0",
+  "description": "Bundled plugins for a standard setup of Wordpress",
+  "repository": "git@github.com:whitespace-se/wordpress-bundle.git",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.{js,json,md,yml}'"
+  }
+}

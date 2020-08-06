@@ -1,0 +1,55 @@
+{
+    "name": "whitespace-se/wordpress-bundle",
+    "description": "Bundled plugins for a setup of Wordpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Whitespace Dev",
+            "email": "code@whitespace.se"
+        }
+    ],
+    "type": "metapackage",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.8.12",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+                },
+                "require": {
+                    "philippbaschke/acf-pro-installer": "^1.0",
+                    "composer/installers": "^1.0"
+                }
+            }
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0",
+        "hellonico/timber-dump-extension": "^1.0",
+        "roots/wp-password-bcrypt": "^1.0",
+        "wpackagist-plugin/disable-comments": "^1.10.0",
+        "wpackagist-plugin/disable-wordpress-updates": "^1.6.6",
+        "wpackagist-plugin/redirection": "^4.7",
+        "wpackagist-plugin/timber-library": "^1.17",
+        "wpackagist-plugin/two-factor-auth":"^4.4",
+        "wpackagist-plugin/user-switching": "^1.5",
+        "wpackagist-plugin/w3-total-cache": "0.9.7.5",
+        "wpackagist-plugin/wordpress-importer": "^0.7.0",
+        "wpackagist-plugin/wordpress-seo": "^14.7",
+        "wpackagist-plugin/wp-mail-smtp": "^1.8",
+        "wpackagist-plugin/wp-nested-pages": "^3.1"
+    }
+}
