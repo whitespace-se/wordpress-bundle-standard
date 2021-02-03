@@ -1,6 +1,6 @@
 {
-    "name": "whitespace-se/wordpress-bundle",
-    "description": "Bundled plugins for a setup of Wordpress",
+    "name": "whitespace-se/wordpress-bundle-standard",
+    "description": "Bundled plugins for a standard setup of Wordpress",
     "license": "MIT",
     "authors": [
         {
