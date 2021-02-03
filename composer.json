@@ -9,37 +9,19 @@
         }
     ],
     "type": "metapackage",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://wpackagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "advanced-custom-fields/advanced-custom-fields-pro",
-                "version": "5.8.12",
-                "type": "wordpress-plugin",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
-                },
-                "require": {
-                    "philippbaschke/acf-pro-installer": "^1.0",
-                    "composer/installers": "^1.0"
-                }
-            }
-        }
-    ],
     "config": {
         "sort-packages": true,
         "optimize-autoloader": true
     },
-    "require": {
-        "php": ">=5.4",
-        "composer/installers": "^1.0",
+    "require": { 
+        "php": ">=7.1",
+        "composer/installers": "^1.8",
         "hellonico/timber-dump-extension": "^1.0",
-        "roots/wp-password-bcrypt": "^1.0",
+        "oscarotero/env": "^2.1",
+        "roots/bedrock-autoloader": "^1.0",
+        "roots/wp-config": "1.0.0",
+        "roots/wp-password-bcrypt": "1.0.0",
+        "vlucas/phpdotenv": "^5.2",
         "wpackagist-plugin/disable-comments": "^1.10.0",
         "wpackagist-plugin/disable-gutenberg": "2.2",
         "wpackagist-plugin/disable-wordpress-updates": "^1.6.6",
