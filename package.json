@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Bundled plugins for a standard setup of Wordpress",
   "repository": "git@github.com:whitespace-se/wordpress-bundle.git",
-  "license": "MIT",
+  "license": "AGPL",
   "private": true,
   "devDependencies": {
     "prettier": "^2.0.5"
